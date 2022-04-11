@@ -1,0 +1,9 @@
+@import "../../styles";
+.desktop-responsive {
+  @include for-desktop {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6vw;
+    margin-right: 6vw;
+  }
+}

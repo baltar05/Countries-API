@@ -1,0 +1,11 @@
+<mat-form-field appearance="outline" class="filter-container">
+  <mat-label>Filter by Region</mat-label>
+  <mat-select [(value)]="selected">
+    <mat-option (click)="setSelected()" value="Africa"> Africa</mat-option>
+    <mat-option (click)="setSelected()" value="Americas"> Americas</mat-option>
+    <mat-option (click)="setSelected()" value="Asia"> Asia </mat-option>
+    <mat-option (click)="setSelected()" value="Europe"> Europe </mat-option>
+    <mat-option (click)="setSelected()" value="Oceania"> Oceania </mat-option>
+  </mat-select>
+</mat-form-field>
+

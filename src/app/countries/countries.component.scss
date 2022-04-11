@@ -1,0 +1,38 @@
+@import "../../styles";
+.country-block{
+  background-color: hsl(0, 0%, 100%);
+  margin-left: 38px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+  border-radius: 12px;
+  width: 80vw;
+  @include for-desktop {
+    width: 15vw;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 10px;
+}
+
+.countries-area {
+  @include for-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+.flag {
+  @include for-desktop {
+    width: 15vw;
+  }
+}

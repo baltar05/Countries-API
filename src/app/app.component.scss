@@ -1,0 +1,18 @@
+.top-bar {
+  height: 5vh;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.define-width {
+  overflow: hidden;
+  width: 100% !important;
+}
+
+h1 {
+  font-size: 17px;
+}
